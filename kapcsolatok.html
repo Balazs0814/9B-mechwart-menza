@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="kapcsolatok.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a href="https://www.dszcmechwart.hu/"><img id="logo" src="logo.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,66 +32,71 @@
   </nav>
 <main>
   <div class="wrapper">
-    <h1>Készítők:</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img class="kep" src="Csongor.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Kovács Kálmán Csongor</h5>
-            <p class="card-text">Email: kovacscsongor07@gmail.com</p>
-            <p>Feladata: Bootstrap, kapcsolatok oldal elkészítése</p>
+    <div class="keszitok">
+      <h1>Készítők:</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img class="kep" src="Csongor.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kovács Kálmán Csongor</h5>
+              <p class="card-text">Email: kovacscsongor07@gmail.com</p>
+              <p>Feladata: Bootstrap, kapcsolatok oldal elkészítése</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img class="kep" src="Matyi.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Szilvási Mátyás</h5>
-            <p class="card-text">Email: matyi200706@gmail.com</p>
-            <p>Feladata: Főoldal, receptek oldal, css elkészítése</p>
+        <div class="col">
+          <div class="card">
+            <img class="kep" src="Matyi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Szilvási Mátyás</h5>
+              <p class="card-text">Email: matyi200706@gmail.com</p>
+              <p>Feladata: Főoldal, receptek oldal, css elkészítése</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img class="kep" src="Balázs.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Oláh Balázs</h5>
-            <p class="card-text">Email: olahbalazs07@gmail.com</p>
-            <p>Feladata: Trello, Github repo elkészítése, adatok gyűjtése</p>
-          </div>
+        <div class="col">
+          <div class="card">
+            <img class="kep" src="Balázs.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oláh Balázs</h5>
+              <p class="card-text">Email: olahbalazs07@gmail.com</p>
+              <p>Feladata: Trello, Github repo elkészítése, adatok gyűjtése</p>
+            </div>
+        </div>
       </div>
     </div>
   </div>
   <div class="terkep">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.17787151293!2d21.61491971257809!3d47.525399971062356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470e128a924701%3A0xa1d27077138b5923!2sMechwart%20Andr%C3%A1s%20Szki.!5e0!3m2!1shu!2shu!4v1684601762283!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <table id="elerhetoseg">
-      <tr>
-        <th id="elerhetoseg" colspan="2"><img class="ikon" src="konyv.png"> Elérhetőség</th>
-      </tr>
-      <tr>
-        <td><img class="ikon" src="telefon.png"> Telefon:</td>
-        <td class="jobb"> +36 52 413 499</td>
-      </tr>
-      <tr>
-        <td><img class="ikon" src="telefon.png"> Központi ügyfélszolgálat:</td>
-        <td class="jobb">+36 30 132 7286 (DSZC képzésekkel kapcsolatban)</td>
-      </tr>
-      <tr>
-        <td><img class="ikon" src="level.png"> E-mail cím:</td>
-        <td class="jobb">iskola@mechwart.hu</td>
-      </tr>
-      <tr>
-        <td><img class="ikon" src="terkep.png"> Székhely:</td>
-        <td class="jobb">4025 Debrecen, Széchenyi u. 58.</td>
-      </tr>
-      <tr>
-        <td><img class="ikon" src="epulet.png"> OM azonosító:</td>
-        <td class="jobb">203033/016</td>
-      </tr>
-    </table>
+  <h1>Elérhetőség és helyszín:</h1>
+    <div class="flex">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.17787151293!2d21.61491971257809!3d47.525399971062356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470e128a924701%3A0xa1d27077138b5923!2sMechwart%20Andr%C3%A1s%20Szki.!5e0!3m2!1shu!2shu!4v1684601762283!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <table id="elerhetoseg">
+        <tr>
+          <th id="elerhetosegcim" colspan="2"><img class="ikon" src="konyv.png"> Elérhetőség</th>
+        </tr>
+        <tr>
+          <td><img class="ikon" src="telefon.png"> Telefon:</td>
+          <td class="jobb"> +36 52 413 499</td>
+        </tr>
+        <tr>
+          <td><img class="ikon" src="telefon.png"> Központi ügyfélszolgálat:</td>
+          <td class="jobb">+36 30 132 7286 (DSZC képzésekkel kapcsolatban)</td>
+        </tr>
+        <tr>
+          <td><img class="ikon" src="level.png"> E-mail cím:</td>
+          <td class="jobb">iskola@mechwart.hu</td>
+        </tr>
+        <tr>
+          <td><img class="ikon" src="terkep.png"> Székhely:</td>
+          <td class="jobb">4025 Debrecen, Széchenyi u. 58.</td>
+        </tr>
+        <tr>
+          <td><img class="ikon" src="epulet.png"> OM azonosító:</td>
+          <td class="jobb">203033/016</td>
+        </tr>
+      </table>
+    </div>
   </div>
 </main>
       <script src="js/bootstrap.bundle.min.js"></script>
