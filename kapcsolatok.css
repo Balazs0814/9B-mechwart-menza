@@ -36,17 +36,17 @@ table, tr, td, th{
 }
 table{
     box-shadow: 0px 0px 5px 2px black;
-    width: 45%;
     border-radius: 10px;
     background-color: #3F4E4F;
     color: white;
+    margin-top: 20px;
 }
 
 iframe{
-    width: 45%;
     box-shadow: 0px 0px 5px 2px black;
     border-radius: 10px;
     border: 2px solid black;
+    margin-top: 20px;
 }
 
 .terkep{
@@ -75,8 +75,8 @@ iframe{
 
 .card{
     margin-top: 50px;
-    height: 600px;
-    min-width: 360px;
+    min-height: 600px;
+    min-width: 100px;
     box-shadow: 0px 0px 5px 2px black;
     background-color: #3F4E4F;
     color: white;
