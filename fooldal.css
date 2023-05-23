@@ -29,12 +29,33 @@ nav a:hover{
     transition: 0.5s;
 }
 footer{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
     box-shadow: 0px 0px 5px 2px black;
     height: 100px;
     background-color: #3F4E4F;
     color: white;
+}
+
+.card{
+    margin: 0px 50px;
+    height: 300px;
+    min-width: 300px;
+    box-shadow: 0px 0px 5px 2px black;
+    background-color: #3F4E4F;
+    color: white;
+    border: 2px solid black;
+}
+
+.napok{
+    margin: 50px 0px 100px 0px;
+    border-radius: 10px;
+    padding: 50px 30px 50px 30px;
+    box-shadow: 0px 0px 5px 2px;
+    background-color: #F7F1E5;
+}
+
+.napok h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 30px;
 }

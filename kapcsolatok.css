@@ -60,7 +60,6 @@ iframe{
 
 .keszitok{
     border-radius: 10px;
-    background-color: #777;
     padding: 50px 30px 50px 30px;
     box-shadow: 0px 0px 5px 2px;
     background-color: #F7F1E5;
@@ -82,7 +81,6 @@ iframe{
     background-color: #3F4E4F;
     color: white;
     border: 2px solid black;
-    
 }
 
 .card p{
