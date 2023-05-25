@@ -73,21 +73,21 @@ footer{
 
 .navigacio{
     margin: auto;
-    width: 40%;
     border-radius: 0px 0px 10px 10px;
-    padding: 30px 20px 10px 20px;
     box-shadow: 0px 0px 5px 2px;
     background-color: #F7F1E5;
 }
 
 .navigacio ul{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 1.4rem;
     list-style: none;
 }
 
 .navigacio li {
+    padding: 10px;
     transition: 0.3s;
 }
 

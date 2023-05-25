@@ -63,7 +63,6 @@ h5{
 }
 
 .allergen{
-    width: 45%;
     margin: auto;
     margin-bottom: 100px;
     border-radius: 10px;
@@ -96,7 +95,6 @@ h5{
 
 .navigacio{
     margin: auto;
-    width: 40%;
     border-radius: 0px 0px 10px 10px;
     padding: 30px 20px 10px 20px;
     box-shadow: 0px 0px 5px 2px;
@@ -105,13 +103,15 @@ h5{
 
 .navigacio ul{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 1.4rem;
     list-style: none;
 }
 
 .navigacio li {
     transition: 0.3s;
+    padding: 5px;
 }
 
 .navigacio li:hover{
@@ -136,4 +136,8 @@ a{
 }
 .copyright{
     padding: 20px;
+}
+
+.all-sz{
+    border-top: 2px solid black;
 }
