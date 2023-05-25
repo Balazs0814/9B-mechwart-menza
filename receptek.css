@@ -38,7 +38,7 @@ footer{
 .card{
     margin-top: 50px;
     min-height: 720px;
-    min-width: 100px;
+    min-width: 170px;
     box-shadow: 0px 0px 5px 2px black;
     background-color: #3F4E4F;
     color: white;
@@ -60,6 +60,23 @@ h5{
     margin: auto;
     border-radius: 10px;
 
+}
+
+.allergen{
+    width: 45%;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    padding: 50px 20px 50px 20px;
+    box-shadow: 0px 0px 5px 2px;
+    background-color: #F7F1E5;
+}
+
+.allergen h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .napok{
