@@ -42,11 +42,17 @@ footer{
     color: white;
     border: 2px solid black;
     margin-top: 20px;
+    transition: 0.3s;
 }
 
 .card img{
     height: 200px;
     width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover{
+    scale: 1.1;
 }
 
 .napok{
@@ -61,5 +67,5 @@ footer{
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
