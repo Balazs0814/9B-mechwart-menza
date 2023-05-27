@@ -44,7 +44,7 @@ footer{
     border-radius: 10px;
 }
 
-.card li{
+.card ul li{
     display: flex;
     justify-content: space-between;
 }
